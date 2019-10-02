@@ -23,5 +23,5 @@ jobs:
         npm install @angular/cli
         ng test
         ng build --prod
-      env:Test your library across a matrix of operating systems and runtime versions
+      env:
         CI: true
