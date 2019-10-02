@@ -20,7 +20,7 @@ jobs:
     - name: npm install, build, and test
       run: |
         npm install
-        npm install @angular/cli
+        npm install -g @angular/cli
         ng test
         ng build --prod
       env:
